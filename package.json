@@ -1,0 +1,18 @@
+{
+  "name": "gilded-rose-ts",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Kata de refactorisation Gilded Rose en TypeScript",
+  "engines": { "node": ">=22.18" },
+  "scripts": {
+    "test": "node --test \"test/**/*.test.ts\"",
+    "coverage": "node --test --experimental-test-coverage --test-coverage-include=\"app/**\" \"test/**/*.test.ts\"",
+    "typecheck": "tsc --noEmit",
+    "texttest": "node test/texttest-fixture.ts 30"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "@types/node": "^22.0.0"
+  }
+}
