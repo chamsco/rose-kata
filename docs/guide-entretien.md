@@ -29,12 +29,12 @@ npm test
 npm run coverage
 npm run typecheck
 npm run texttest
-Get-Content app/gilded-rose.ts
-Get-Content test/gilded-rose.test.ts
-Get-Content test/legacy-equivalence.test.ts
+sed -n '1,240p' app/gilded-rose.ts
+sed -n '1,240p' test/gilded-rose.test.ts
+sed -n '1,240p' test/legacy-equivalence.test.ts
 ```
 
-Vérifier que chaque commande fonctionne sur la machine utilisée pour l'entretien. Ouvrir d'avance les commits et fichiers à montrer. Être capable d'expliquer les changements et les limites de chaque test, plutôt que de réciter uniquement les chiffres.
+Vérifier que chaque commande fonctionne sur la machine utilisée pour l'entretien. Ouvrir d'avance les fichiers à montrer. Être capable d'expliquer les changements et les limites de chaque test, plutôt que de réciter uniquement les chiffres.
 
 ## Transposition à un produit existant
 
